@@ -1,0 +1,11 @@
+```css
+.lang-switcher { display: flex; justify-content: flex-end; gap: 10px; margin-bottom: 10px; }
+.lang-switcher button { background: none; border: none; font-size: 24px; cursor: pointer; transition: 0.2s; }
+.lang-switcher button:hover { transform: scale(1.2); }
+
+.contacts { margin-top: 30px; padding: 15px; background: #fdf2e9; border-radius: 15px; }
+.contacts h4 { margin: 0 0 10px 0; color: var(--dark); }
+.contact-links { display: flex; flex-direction: column; gap: 8px; }
+.contact-links a { text-decoration: none; color: #27ae60; font-weight: bold; font-size: 14px; }
+.contact-links a:hover { text-decoration: underline; }
+```

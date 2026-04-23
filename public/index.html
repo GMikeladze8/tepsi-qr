@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tepsi - Premium QR Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-card">
+        <div class="lang-switcher">
+            <button onclick="changeLang('ka')">🇬🇪</button>
+            <button onclick="changeLang('en')">🇺🇸</button>
+            <button onclick="changeLang('fr')">🇫🇷</button>
+        </div>
+
+        <header>
+            <div class="logo">TEPSI</div>
+            <p id="t-subtitle">სწრაფი შეკვეთა მაგიდიდან</p>
+        </header>
+
+        <section class="user-info">
+            <input type="text" id="cust-name" placeholder="თქვენი სახელი">
+            <input type="number" id="table-num" placeholder="მაგიდის ნომერი *" required>
+        </section>
+
+        <section class="menu-list">
+            </section>
+
+        <section class="contacts">
+            <h4 id="t-contact">კონტაქტი:</h4>
+            <div class="contact-links">
+                <a href="https://wa.me/995591622929" target="_blank">🟢 Giorgi: +995 591 62 29 29</a>
+                <a href="https://wa.me/995595051839" target="_blank">🟢 Nodar: +995 595 05 18 39</a>
+            </div>
+        </section>
+
+        <footer id="order-footer" class="hidden">
+            <button id="send-btn" onclick="processOrder()">🚀 <span id="t-btn">შეკვეთის გაგზავნა</span></button>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

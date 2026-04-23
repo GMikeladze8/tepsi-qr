@@ -9,6 +9,7 @@ app.use(express.static('public'));
 const TG_TOKEN = '8671766446:AAFFB8qRo056m_uO7-rNeYpF7YNWqeFHmJ8';
 const TG_CHAT_ID = '1887978471';
 
+// დაცვა სპამისგან
 const orderLimiter = rateLimit({
     windowMs: 30 * 1000, 
     max: 1,
